@@ -5,7 +5,7 @@ Projet Bank test:
 PROJET EN PYTHON
 Classification binaire
 BARRY Issa | le 28/03/2020
-Contexte
+## Contexte
 
 
 Ce projet consiste à entrainer un modèle de classification binaire sur des données relative à une campagne  de prêts bancaires réalisée pour une institution bancaire.
@@ -30,16 +30,16 @@ Model de régression logistique :
 La régression logistique est largement répandue dans le domaine bancaire et des assurances. C’est un modèle de régression binomiale.
 
 
-Ces points forts :
+## Ces points forts :
 • Il nous permet à expliquer la survenue d’un évènement
-• Il nous permet à cherche la probabilité de succès
+• Il nous permet à cherche la probabilité de succès.
 Comment c’est dérouler le travail ? 
 Après le chargement  des données, l’encodage et la création du vecteur de poids. J’ai utilisé des fonctions pour entrainer le model comme :
 • Une fonction pour calculer le taux d’erreur
 • Une fonction de prédiction
 • Le cross entropy
 • Le gradient
-• La sortie du model 
+• La sortie du model. 
 Et enfin le résultat est enregistré dans un fichier (bank_test_result). 
 Conclusion
 Après avoir le résultat de  chacun des algorithmes (KNN et régression logistique). J’ai constaté  qu’à l’exécution l’algorithme de régression logistique est beaucoup plus rapide, tandis que la méthode des K plus proche voisin prenait énormément de temps avant d’obtenir le résultat.
